@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        margin: 5px;
+    }
+}
